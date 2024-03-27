@@ -1,7 +1,7 @@
 <template>
   <header class="header">
     <h1>Piluginasan</h1>
-    <p>Band of saundnauts</p>
+    <p>A band of soundnauts</p>
   </header>
   <main class="index">
     <section class="articles">
