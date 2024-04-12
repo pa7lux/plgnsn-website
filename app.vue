@@ -6,15 +6,31 @@
 
 <script setup lang="ts">
 useHead({
-  title: 'Piluginasan — Band of saundnauts',
+  title: 'Piluginasan. A band of saundnauts.',
   meta: [
     {
       name: 'description',
-      content: 'Piluginasan is a band of saundnauts. We are a group of people who are passionate about sound and music. We are a collective of artists, musicians, and sound designers who are dedicated to creating and sharing music and sound art.'
+      content: 'Piluginasan. A band of saundnauts.'
     },
     {
       name: 'viewport',
       content: 'width=device-width, initial-scale=1.0'
+    },
+    {
+      property: 'og:title',
+      content: 'Piluginasan'
+    },
+    {
+      property: 'og:description',
+      content: 'a band of saundnauts'
+    },
+    {
+      property: 'og:image',
+      content: '/images/og-image.jpg'
+    },
+    {
+      property: 'twitter:card',
+      content: 'summary_large_image'
     }
   ],
   link: [
@@ -35,6 +51,16 @@ useHead({
       type: 'image/png',
       href: '/favicon.png',
     }
+  ],
+  script: [
+    {
+      src: 'https://www.googletagmanager.com/gtag/js?id=G-R3M21PMW8F',
+      async: true
+    },
+    {
+      src: '/analytics.js'
+    }
+    
   ]
 })
 </script>
