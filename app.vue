@@ -26,7 +26,7 @@ useHead({
     },
     {
       property: 'og:image',
-      content: 'https://piluginasan.top/images/og-image.jpg'
+      content: 'https://piluginasan.top/media/og-image.jpg'
     },
     {
       property: 'twitter:card',
