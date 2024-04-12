@@ -6,11 +6,11 @@
 
 <script setup lang="ts">
 useHead({
-  title: 'Piluginasan. A band of saundnauts.',
+  title: 'Piluginasan. A band of soundnauts.',
   meta: [
     {
       name: 'description',
-      content: 'Piluginasan. A band of saundnauts.'
+      content: 'Piluginasan. A band of soundnauts'
     },
     {
       name: 'viewport',
@@ -22,7 +22,7 @@ useHead({
     },
     {
       property: 'og:description',
-      content: 'a band of saundnauts'
+      content: 'a band of soundnauts'
     },
     {
       property: 'og:image',
